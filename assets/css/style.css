@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+}
+
+header{
+    background-color: pink;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    margin: 0;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+}
+
+input{
+    width: 100%;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 4px;
+    border: 1px solid grey;
+}
+
+#city-input,#search-button{
+    display: block;
+    margin-bottom: 10px;
+}
+
+#search-button{
+    background-color: pink;
+    color: white;
+    border-radius: 4px;
+    font-size: 20px;
+    padding: 0 20px;
+    border: none;
+    width: 100%;
+}
+
+hr{
+    width: 100%; 
+    border-top: 2px solid black; 
+    margin: 10px 0; 
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+main{
+    margin-top: 10px;
+    padding: 10px;
+    height: 500px;
+}
+
+.current{
+    width: 90%;
+    height: 200px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.forecast{
+    width: 90%;
+    height: 250px;
+}
+
+.forecast-data-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.forecast-data{
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+}
+
+aside{
+    padding: 10px;
+}
+
+.styled-text h2{
+    font-size: 20px;
+}
+
+.styled-text p{
+    font-size: 15px;
+}
+
+li{
+    list-style: none;
+    background-color: lightsalmon;
+    margin-bottom: 5px;
+    text-align: center;
+    margin-left: -40px;
+    font-size: 20px;
+    padding: 3px;
+    border-radius: 5px;
+}
+
